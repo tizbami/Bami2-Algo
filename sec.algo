@@ -1,0 +1,8 @@
+Create a container to hold the array of cards. [10,6,8,2,4]
+Go through the cards element by element
+We start from the second element (i-1) and consider it as the current element to be inserted. since the first element is assumed to be sorted.
+We compare the current element with the previous elements, and check if the previous is lesser than the current element, we move the previous element one position ahead.
+We go over step 4 until we find an element smaller than or equal to the current element.
+We then place the current element in the correct position.
+We repeat this process for all elements in the array.
+print the sorted array. [2,4,6,8,10]
